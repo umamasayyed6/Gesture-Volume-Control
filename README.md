@@ -1,2 +1,33 @@
-# Gesture-Volume-Control
-Gesture Volume Control** is an innovative application that uses a webcam to detect hand gestures and adjust the system volume accordingly. By tracking the distance between your thumb and index finger, the volume is increased or decreased — no keyboard or mouse needed! 🙌🔊
+# ✋🎚️ Gesture Volume Control 🎵🖥️
+
+Control your system volume using just your hand gestures with this real-time computer vision project! 🤯📷
+
+
+---
+
+## 🔍 Features
+
+- 📸 Real-time hand detection using **MediaPipe**
+- ✋ Detects specific hand landmarks
+- 🎚️ Dynamically maps finger distance to volume level
+- 💻 Works with your computer's webcam and system audio
+- 🖥️ Lightweight and fast — runs smoothly on most machines
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python** 🐍
+- **OpenCV** 📷
+- **MediaPipe** 🖐️
+- **pycaw** 🔊 (for Windows audio control)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/gesture-volume-control.git
+cd gesture-volume-control
